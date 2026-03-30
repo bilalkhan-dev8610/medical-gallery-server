@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:5173", "http://localhost:3000" ,"https://your-app-name.netlify.app",],
+  origin: ["http://localhost:5173", "http://localhost:3000" ,"https://gallery-portal01.netlify.app",],
   
   methods: ["GET", "POST", "DELETE"],
 }));
